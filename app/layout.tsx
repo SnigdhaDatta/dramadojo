@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "DramaDojo",
-  description: "A minimalistic Anime and East Asian Dramas tracker web app for avid watchers",
+  description: "A minimalistic Anime and East Asian Dramas tracker website for avid watchers",
 };
 
 export default function RootLayout({
