@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function InputWithButton() {
   return (
-    <div className=" relative flex w-full max-w-[90vw] md:max-w-[60vw] lg:max-w-[50vw] items-center gap-2 shadow-[0_8px_24px_#c7b5ff55] border border-[#e0b7f5] rounded-xl p-2 bg-white transform transition-transform duration-300 hover:scale-[0.97] focus-within:ring-2 focus-within:ring-[#e0b7f5] focus-within:border-[#dba3f7] ">
+    <div className=" relative flex w-full max-w-[100vw] md:max-w-[60vw] lg:max-w-[50vw] items-center gap-2 shadow-[0_8px_24px_#c7b5ff55] border border-[#e0b7f5] rounded-xl p-2 bg-white  focus-within:ring-2 focus-within:ring-[#e0b7f5] focus-within:border-[#dba3f7] ">
       <input
         type="text"
         id="search"
