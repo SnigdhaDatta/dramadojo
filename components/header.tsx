@@ -1,17 +1,18 @@
-import { UserRound, House } from 'lucide-react';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import { UserRound, House } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-4 md:border-b md:border-b-pink-300">
       {/* Logo */}
       <Link href="/">
         <Image src="/icon.png" alt="Logo" width={30} height={40} />
       </Link>
 
       {/* Right side icons */}
-      <div className="flex items-center gap-2">
+      <ul className="flex items-center gap-2">
         {/* Profile Icon */}
         <Link href="/profile">
           <div className="group relative flex items-center justify-center cursor-pointer">
@@ -35,7 +36,7 @@ export default function Header() {
             </span>
           </div>
         </Link>
-      </div>
+      </ul>
     </div>
   );
 }
